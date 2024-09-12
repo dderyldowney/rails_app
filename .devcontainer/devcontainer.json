@@ -88,6 +88,9 @@
   // "remoteUser": "root",
 
 
+  // Use updateContentCommand to update system 'gem' to latest version.
+  "updateContentCommand": "gem update --system",
+
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "sudo chown -R $USER:$USER $HOME/.rbenv && bin/setup"
 }
