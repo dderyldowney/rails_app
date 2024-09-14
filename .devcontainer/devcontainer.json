@@ -79,7 +79,13 @@
         "humao.rest-client",
         "Hridoy.rails-snippets",
         "KoichiSasada.vscode-rdbg",
-        "redhat.vscode-yaml"
+        "redhat.vscode-yaml",
+        "aki77.rails-db-schema",
+        "aki77.rails-routes",
+        "anx450z.rails-routes-codelens",
+        "makicamel.rails-routes-navigator",
+        "TabNine.tabnine-vscode",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   },
