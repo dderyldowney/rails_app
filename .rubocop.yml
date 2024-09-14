@@ -6,3 +6,12 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 # # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
 # Layout/SpaceInsideArrayLiteralBrackets:
 #   Enabled: false
+
+AllCops:
+  ParserEngine: parser_prism
+  TargetRubyVersion: 3.3
+
+# Use `snake_case` for variable names
+Naming/VariableName:
+  EnforcedStyle: snake_case
+
