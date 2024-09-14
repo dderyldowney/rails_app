@@ -60,6 +60,7 @@ group :development, :test do
   gem "rspec-mocks"
   gem "rspec-rails"
   gem "rubocop-rails"
+  gem "prism"
   gem "shoulda-matchers"
   gem "solargraph-rails"
 end
