@@ -93,9 +93,11 @@
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root",
 
-
+  // Use initializeCommand to enable corepack
+  "initializeCommand": "npm install -g corepack && corepack enable",
+  
   // Use updateContentCommand to update system 'gem' to latest version.
-  "updateContentCommand": "corepack enable && gem update --system",
+  "updateContentCommand": "gem update --system",
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "sudo chown -R $USER:$USER $HOME/.rbenv && bin/setup"
